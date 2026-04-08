@@ -1,0 +1,56 @@
+{
+  "name": "@deckaura/tarot-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for tarot card meanings, readings, and spreads. Powered by Deckaura (https://deckaura.com).",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "tarot-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tarot",
+    "claude",
+    "anthropic",
+    "ai-tools",
+    "divination",
+    "deckaura"
+  ],
+  "author": "Deckaura <hello@deckaura.com> (https://deckaura.com)",
+  "homepage": "https://deckaura.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokimedia/tarot-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gokimedia/tarot-mcp-server/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "mcpName": "tarot-reader",
+  "mcp": {
+    "transports": ["stdio"],
+    "categories": ["knowledge", "entertainment", "reference"]
+  }
+}

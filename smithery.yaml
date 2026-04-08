@@ -1,0 +1,23 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'npx', args: ['-y', '@deckaura/tarot-mcp-server'] })
+metadata:
+  name: tarot
+  description: "78-card tarot deck meanings, spreads, and readings. Powered by Deckaura (deckaura.com)."
+  author: Deckaura
+  homepage: https://deckaura.com
+  repository: https://github.com/gokimedia/tarot-mcp-server
+  license: MIT
+  categories:
+    - knowledge
+    - entertainment
+    - reference
+  tags:
+    - tarot
+    - divination
+    - astrology
+    - deckaura
