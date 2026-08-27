@@ -1,0 +1,70 @@
+{
+  "manifest_version": "0.3",
+  "name": "deckaura-tarot",
+  "display_name": "Deckaura Tarot",
+  "version": "1.0.1",
+  "description": "Explore all 78 tarot cards with upright, reversed, love, career, yes-or-no meanings, card draws, and spreads.",
+  "long_description": "A local Model Context Protocol server backed by Deckaura's complete 78-card structured tarot dataset. No account, API key, network connection, or paid subscription is required.",
+  "author": {
+    "name": "Deckaura",
+    "email": "hello@deckaura.com",
+    "url": "https://deckaura.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokimedia/tarot-mcp-server.git"
+  },
+  "homepage": "https://deckaura.com/pages/ai-data-sources",
+  "documentation": "https://github.com/gokimedia/tarot-mcp-server#readme",
+  "support": "https://github.com/gokimedia/tarot-mcp-server/issues",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/index.js"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "get_card_meaning",
+      "description": "Get structured upright, reversed, love, career, yes-or-no, zodiac, and guide data for a tarot card."
+    },
+    {
+      "name": "draw_random_card",
+      "description": "Draw one random card from the complete 78-card deck."
+    },
+    {
+      "name": "three_card_spread",
+      "description": "Draw a three-card past, present, and future spread."
+    },
+    {
+      "name": "yes_no_reading",
+      "description": "Draw a card and return its structured yes, no, or maybe tendency."
+    },
+    {
+      "name": "list_all_cards",
+      "description": "List every card in the complete 78-card deck."
+    }
+  ],
+  "keywords": [
+    "tarot",
+    "divination",
+    "meanings",
+    "spreads",
+    "deckaura"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=18"
+    }
+  }
+}

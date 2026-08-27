@@ -15,6 +15,9 @@
   ],
   "scripts": {
     "build": "tsc",
+    "build:mcpb": "node scripts/build-mcpb.mjs",
+    "validate:mcpb": "npm run build:mcpb && npx --yes @anthropic-ai/mcpb@2.1.2 validate build/mcpb",
+    "pack:mcpb": "npm run validate:mcpb && npx --yes @anthropic-ai/mcpb@2.1.2 pack build/mcpb build/deckaura-tarot-mcp-server-1.0.1.mcpb",
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build"
   },
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "esbuild": "^0.28.2",
     "typescript": "^5.7.2"
   },
   "engines": {
@@ -50,7 +54,13 @@
   },
   "mcpName": "io.github.gokimedia/tarot-mcp-server",
   "mcp": {
-    "transports": ["stdio"],
-    "categories": ["knowledge", "entertainment", "reference"]
+    "transports": [
+      "stdio"
+    ],
+    "categories": [
+      "knowledge",
+      "entertainment",
+      "reference"
+    ]
   }
 }

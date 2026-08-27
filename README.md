@@ -29,6 +29,17 @@ Or run ad-hoc via npx:
 npx @deckaura/tarot-mcp-server
 ```
 
+## Desktop extension bundle (MCPB)
+
+Build a self-contained MCPB bundle for compatible desktop clients and stdio registries such as Smithery:
+
+```bash
+npm ci
+npm run pack:mcpb
+```
+
+The command validates the MCPB manifest, bundles the Node.js server and its 78-card dataset, and writes `build/deckaura-tarot-mcp-server-1.0.1.mcpb`. Release bundles are also available from [GitHub Releases](https://github.com/gokimedia/tarot-mcp-server/releases).
+
 ## Configure — Claude Desktop
 
 Add to `claude_desktop_config.json`:
@@ -89,5 +100,6 @@ MIT © [Deckaura](https://deckaura.com)
 
 - **Website:** https://deckaura.com
 - **npm:** https://www.npmjs.com/package/@deckaura/tarot-mcp-server
-- **MCP Registry:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
+- **MCPB releases:** https://github.com/gokimedia/tarot-mcp-server/releases
+- **Official MCP Registry search:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
 - **Issues:** https://github.com/gokimedia/tarot-mcp-server/issues
