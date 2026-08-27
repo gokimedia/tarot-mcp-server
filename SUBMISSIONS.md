@@ -11,6 +11,19 @@ This file tracks verified publication surfaces for `io.github.gokimedia/tarot-mc
 - **Distribution:** Verified MCPB release with SHA-256 integrity metadata
 - **Release:** https://github.com/gokimedia/tarot-mcp-server/releases/tag/v1.0.1
 
+### mcpservers.org
+
+- **Status:** Active
+- **Listing:** https://mcpservers.org/servers/gokimedia/tarot-mcp-server
+- **Source:** GitHub repository and npm installation metadata
+
+### Glama
+
+- **Status:** Active
+- **Listing:** https://glama.ai/mcp/servers/gokimedia/tarot-mcp-server
+- **Category:** Entertainment & Media
+- **Ownership metadata:** `glama.json`
+
 ## Awaiting maintainer review
 
 - **Awesome MCP Servers:** https://github.com/punkpeye/awesome-mcp-servers/pull/11295
@@ -24,26 +37,28 @@ Do not open duplicate pull requests while these remain active.
 
 - Repository configuration: `smithery.yaml`
 - MCPB bundle: GitHub release `v1.0.1`
-- Publication documentation: https://smithery.mintlify.app/build
-
-### Glama
-
-- Repository configuration: `glama.json`
-- Directory: https://glama.ai/mcp/servers
+- Publication documentation: https://smithery.ai/docs/build/publish
+- Current blocker: publisher login is required before the MCPB bundle can be submitted.
 
 ### mcp.so
 
 - Submission page: https://mcp.so/submit
-- Submit the GitHub repository URL and the official registry name above.
+- No matching listing was found on 2026-08-27.
+- New listings currently use a paid USD 39 submission flow; do not submit without explicit payment approval.
 
 ### LobeHub MCP Marketplace
 
-- Marketplace documentation: https://www.mintlify.com/lobehub/lobehub/integrations/mcp-plugins
+- Owner declaration: `lhm.plugin.json`
+- Marketplace: https://lobehub.com/mcp
+- No matching listing was found on 2026-08-27.
+- Current blocker: LobeHub login and a verified GitHub connection with push access are required before publishing.
 
 ### PulseMCP
 
-- Check whether the official MCP Registry record has been ingested before requesting a manual listing.
 - Directory: https://www.pulsemcp.com/servers
+- No matching listing was found on 2026-08-27.
+- Manual submissions and listing changes are temporarily paused.
+- PulseMCP says it will ingest entries from the Official MCP Registry automatically once ingestion resumes, so do not create a duplicate request.
 
 ## Canonical resources
 
