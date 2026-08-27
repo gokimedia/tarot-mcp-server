@@ -102,4 +102,8 @@ MIT © [Deckaura](https://deckaura.com)
 - **npm:** https://www.npmjs.com/package/@deckaura/tarot-mcp-server
 - **MCPB releases:** https://github.com/gokimedia/tarot-mcp-server/releases
 - **Official MCP Registry search:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
+- **Live dataset explorer:** https://gokimedia.github.io/tarot-dataset-explorer/
+- **Developer documentation:** https://gokimedia.github.io/deckaura-developer-docs/
+- **Hugging Face dataset:** https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
+- **Permanent dataset DOI:** https://doi.org/10.5281/zenodo.19475329
 - **Issues:** https://github.com/gokimedia/tarot-mcp-server/issues
