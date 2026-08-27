@@ -1,35 +1,54 @@
-# MCP Directory Submissions Checklist
+# MCP Directory Publication Status
 
-After `npm publish` and GitHub push, submit to these 5 registries:
+This file tracks verified publication surfaces for `io.github.gokimedia/tarot-mcp-server`. Check each live listing before submitting again so duplicate records are not created.
 
-## 1. Official MCP Registry — modelcontextprotocol.io
-- **URL:** https://github.com/modelcontextprotocol/servers
-- **Action:** Fork, add entry to README.md under "Community Servers" section, open PR
-- **Entry template:**
-  ```markdown
-  - **[Tarot](https://github.com/gokimedia/tarot-mcp-server)** — 78-card tarot deck meanings, spreads, and readings. Powered by [Deckaura](https://deckaura.com).
-  ```
+## Published
 
-## 2. Glama.ai MCP Directory
-- **URL:** https://glama.ai/mcp/servers/submit
-- **Action:** Auto-scans npm. After `npm publish @deckaura/tarot-mcp-server`, submit the package name.
-- **Backlink:** Glama server profile page (dofollow)
+### Official MCP Registry
 
-## 3. Smithery.ai
-- **URL:** https://smithery.ai
-- **Action:** Add `smithery.yaml` to repo root, register via https://smithery.ai/new
-- **Entry template:** See `smithery.yaml` in this folder
+- **Status:** Active
+- **Record:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
+- **Distribution:** Verified MCPB release with SHA-256 integrity metadata
+- **Release:** https://github.com/gokimedia/tarot-mcp-server/releases/tag/v1.0.1
 
-## 4. mcpservers.org
-- **URL:** https://github.com/wong2/awesome-mcp-servers (or https://mcpservers.org submission form)
-- **Action:** PR to awesome list
+## Awaiting maintainer review
 
-## 5. Awesome MCP Servers (Punk Peye)
-- **URL:** https://github.com/punkpeye/awesome-mcp-servers
-- **Action:** PR under appropriate category (likely "Entertainment" or "Knowledge & Memory")
+- **Awesome MCP Servers:** https://github.com/punkpeye/awesome-mcp-servers/pull/11295
+- **Awesome MCP Servers (YuzeHao2023):** https://github.com/YuzeHao2023/Awesome-MCP-Servers/pull/388
 
-## Bonus directories discovered 2026:
-- **MCP Hub:** https://mcphub.io
-- **Cline Marketplace:** https://github.com/cline/mcp-marketplace
-- **Continue Dev MCP:** https://docs.continue.dev/customize/mcp
-- **Zed Extensions:** https://zed.dev/extensions (MCP category)
+Do not open duplicate pull requests while these remain active.
+
+## Prepared, not yet submitted
+
+### Smithery
+
+- Repository configuration: `smithery.yaml`
+- MCPB bundle: GitHub release `v1.0.1`
+- Publication documentation: https://smithery.mintlify.app/build
+
+### Glama
+
+- Repository configuration: `glama.json`
+- Directory: https://glama.ai/mcp/servers
+
+### mcp.so
+
+- Submission page: https://mcp.so/submit
+- Submit the GitHub repository URL and the official registry name above.
+
+### LobeHub MCP Marketplace
+
+- Marketplace documentation: https://www.mintlify.com/lobehub/lobehub/integrations/mcp-plugins
+
+### PulseMCP
+
+- Check whether the official MCP Registry record has been ingested before requesting a manual listing.
+- Directory: https://www.pulsemcp.com/servers
+
+## Canonical resources
+
+- Open Data & AI hub: https://deckaura.com/pages/ai-data-sources
+- Dataset: https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
+- DOI: https://doi.org/10.5281/zenodo.19475329
+- Dataset explorer: https://gokimedia.github.io/tarot-dataset-explorer/
+- Developer documentation: https://gokimedia.github.io/deckaura-developer-docs/

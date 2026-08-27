@@ -9,7 +9,7 @@ metadata:
   name: tarot
   description: "78-card tarot deck meanings, spreads, and readings. Powered by Deckaura (deckaura.com)."
   author: Deckaura
-  homepage: https://deckaura.com
+  homepage: https://deckaura.com/pages/ai-data-sources
   repository: https://github.com/gokimedia/tarot-mcp-server
   license: MIT
   categories:

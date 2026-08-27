@@ -98,6 +98,7 @@ MIT © [Deckaura](https://deckaura.com)
 
 ## Links
 
+- **Open Data & AI hub:** https://deckaura.com/pages/ai-data-sources
 - **Website:** https://deckaura.com
 - **npm:** https://www.npmjs.com/package/@deckaura/tarot-mcp-server
 - **MCPB releases:** https://github.com/gokimedia/tarot-mcp-server/releases
