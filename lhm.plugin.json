@@ -1,0 +1,99 @@
+{
+  "identifier": "gokimedia-tarot-mcp-server",
+  "name": "Deckaura Tarot MCP Server",
+  "version": "1.0.1",
+  "description": "Query all 78 tarot card meanings, draw cards, create three-card spreads, and answer yes-or-no questions through MCP using Deckaura's structured dataset.",
+  "author": "Deckaura",
+  "authorUrl": "https://github.com/gokimedia",
+  "homepage": "https://github.com/gokimedia/tarot-mcp-server",
+  "icon": "🔮",
+  "tags": [
+    "tarot",
+    "divination",
+    "card-meanings",
+    "readings",
+    "deckaura"
+  ],
+  "tools": [
+    {
+      "name": "get_card_meaning",
+      "description": "Get upright, reversed, love, and career meanings for a specific tarot card.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "card_name": {
+            "type": "string",
+            "description": "Name of the tarot card, such as The Fool or Ace of Cups."
+          }
+        },
+        "required": [
+          "card_name"
+        ]
+      }
+    },
+    {
+      "name": "draw_random_card",
+      "description": "Draw one random card from the complete 78-card deck, optionally allowing reversals.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "reversed_allowed": {
+            "type": "boolean",
+            "description": "Whether the card may appear reversed; defaults to true."
+          }
+        }
+      }
+    },
+    {
+      "name": "three_card_spread",
+      "description": "Draw a past-present-future spread and return an interpretation for each position.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "Optional question to focus the reading on."
+          }
+        }
+      }
+    },
+    {
+      "name": "list_all_cards",
+      "description": "List all 78 tarot cards with their names, arcana, and suits.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "yes_no_reading",
+      "description": "Draw one card for a yes-or-no question and return its verdict.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "The yes-or-no question to ask."
+          }
+        },
+        "required": [
+          "question"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "tarot://deck/full",
+      "name": "Full 78-card deck",
+      "description": "Complete Major and Minor Arcana meanings dataset",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "tarot://deckaura/home",
+      "name": "Deckaura",
+      "description": "Official Deckaura website, tarot card guides, and tools",
+      "mimeType": "text/uri-list"
+    }
+  ]
+}
