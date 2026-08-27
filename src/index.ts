@@ -96,7 +96,7 @@ function randomCard(): Card {
 }
 
 const server = new Server(
-  { name: "tarot-mcp-server", version: "1.0.0" },
+  { name: "tarot-mcp-server", version: "1.0.1" },
   { capabilities: { tools: {}, resources: {} } },
 );
 

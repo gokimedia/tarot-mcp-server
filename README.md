@@ -89,5 +89,5 @@ MIT © [Deckaura](https://deckaura.com)
 
 - **Website:** https://deckaura.com
 - **npm:** https://www.npmjs.com/package/@deckaura/tarot-mcp-server
-- **MCP Registry:** https://modelcontextprotocol.io/servers
+- **MCP Registry:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
 - **Issues:** https://github.com/gokimedia/tarot-mcp-server/issues
