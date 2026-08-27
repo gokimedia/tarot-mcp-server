@@ -18,6 +18,13 @@ This file tracks verified publication surfaces for `io.github.gokimedia/tarot-mc
 - **Qualified name:** `gokimedia/tarot`
 - **Distribution:** Local Node.js MCPB with five published tool schemas
 
+### LobeHub MCP Marketplace
+
+- **Status:** Active and owner-verified
+- **Listing:** https://lobehub.com/mcp/gokimedia-tarot-mcp-server
+- **Identifier:** `gokimedia-tarot-mcp-server`
+- **Version:** `1.0.1`
+
 ### mcpservers.org
 
 - **Status:** Active
@@ -45,13 +52,6 @@ Do not open duplicate pull requests while these remain active.
 - Submission page: https://mcp.so/submit
 - No matching listing was found on 2026-08-27.
 - New listings currently use a paid USD 39 submission flow; do not submit without explicit payment approval.
-
-### LobeHub MCP Marketplace
-
-- Owner declaration: `lhm.plugin.json`
-- Marketplace: https://lobehub.com/mcp
-- No matching listing was found on 2026-08-27.
-- Current blocker: LobeHub login and a verified GitHub connection with push access are required before publishing.
 
 ### PulseMCP
 
