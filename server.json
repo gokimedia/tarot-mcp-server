@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.gokimedia/tarot-mcp-server",
   "title": "Deckaura Tarot",
-  "description": "Explore all 78 tarot cards with upright, reversed, love, career, and yes-or-no meanings, plus card draws and spreads powered by Deckaura.",
+  "description": "Explore 78 tarot cards with meanings, card draws, spreads, and Deckaura guide links.",
   "version": "1.0.1",
   "repository": {
     "url": "https://github.com/gokimedia/tarot-mcp-server",
@@ -10,9 +10,9 @@
   },
   "packages": [
     {
-      "registryType": "npm",
-      "identifier": "@deckaura/tarot-mcp-server",
-      "version": "1.0.1",
+      "registryType": "mcpb",
+      "identifier": "https://github.com/gokimedia/tarot-mcp-server/releases/download/v1.0.1/deckaura-tarot-mcp-server-1.0.1.mcpb",
+      "fileSha256": "fafcb2d40778a1b083c171635333d7e6c8a0eb69f19323655b269f0fe1d43888",
       "transport": {
         "type": "stdio"
       }
