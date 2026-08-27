@@ -11,6 +11,13 @@ This file tracks verified publication surfaces for `io.github.gokimedia/tarot-mc
 - **Distribution:** Verified MCPB release with SHA-256 integrity metadata
 - **Release:** https://github.com/gokimedia/tarot-mcp-server/releases/tag/v1.0.1
 
+### Smithery
+
+- **Status:** Active
+- **Listing:** https://smithery.ai/servers/gokimedia/tarot
+- **Qualified name:** `gokimedia/tarot`
+- **Distribution:** Local Node.js MCPB with five published tool schemas
+
 ### mcpservers.org
 
 - **Status:** Active
@@ -32,13 +39,6 @@ This file tracks verified publication surfaces for `io.github.gokimedia/tarot-mc
 Do not open duplicate pull requests while these remain active.
 
 ## Prepared, not yet submitted
-
-### Smithery
-
-- Repository configuration: `smithery.yaml`
-- MCPB bundle: GitHub release `v1.0.1`
-- Publication documentation: https://smithery.ai/docs/build/publish
-- Current blocker: publisher login is required before the MCPB bundle can be submitted.
 
 ### mcp.so
 

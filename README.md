@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@deckaura/tarot-mcp-server)](https://www.npmjs.com/package/@deckaura/tarot-mcp-server)
 [![MCP](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
+[![Smithery](https://img.shields.io/badge/Smithery-gokimedia%2Ftarot-6c47ff)](https://smithery.ai/servers/gokimedia/tarot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that exposes the complete 78-card tarot deck — meanings, spreads, and readings — to any MCP-compatible client (Claude Desktop, Cursor, Windsurf, Cline, Zed, and more).
@@ -103,6 +104,9 @@ MIT © [Deckaura](https://deckaura.com)
 - **npm:** https://www.npmjs.com/package/@deckaura/tarot-mcp-server
 - **MCPB releases:** https://github.com/gokimedia/tarot-mcp-server/releases
 - **Official MCP Registry search:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server
+- **Smithery:** https://smithery.ai/servers/gokimedia/tarot
+- **Glama:** https://glama.ai/mcp/servers/gokimedia/tarot-mcp-server
+- **MCP Servers:** https://mcpservers.org/servers/gokimedia/tarot-mcp-server
 - **Live dataset explorer:** https://gokimedia.github.io/tarot-dataset-explorer/
 - **Developer documentation:** https://gokimedia.github.io/deckaura-developer-docs/
 - **Hugging Face dataset:** https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
